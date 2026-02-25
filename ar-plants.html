@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+<head>
+    <!-- ══════════════════════════════════════════
+         METADATOS BÁSICOS
+    ══════════════════════════════════════════ -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Título optimizado: palabra clave principal + marca (50-60 caracteres) -->
+    <title>Verde AR | Visualiza Plantas y Náteras en tu Espacio de Trabajo</title>
+
+    <!-- Descripción (150-160 caracteres con CTA) -->
+    <meta name="description" content="Usa realidad aumentada para ver cómo quedarían plantas y náteras en tu oficina antes de comprarlas. Elige especie, maceta y color en segundos.">
+
+    <!-- Keywords (nicho + local + variantes) -->
+    <meta name="keywords" content="plantas realidad aumentada, visualizador AR plantas, náteras oficina, decoración plantas interior AR, ver plantas en mi espacio, plantas para espacios de trabajo, decoración con plantas Colombia">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Canonical (ajusta a tu dominio real) -->
+    <link rel="canonical" href="https://verde-ar.com/">
+
+    <!-- Idioma alternativo (si tienes versión en inglés) -->
+    <!-- <link rel="alternate" hreflang="en" href="https://verde-ar.com/en/"> -->
+    <link rel="alternate" hreflang="es" href="https://verde-ar.com/">
+    <link rel="alternate" hreflang="x-default" href="https://verde-ar.com/">
+
+    <!-- Autor y derechos -->
+    <meta name="author" content="Verde AR">
+    <meta name="copyright" content="Verde AR 2025">
+
+    <!-- ══════════════════════════════════════════
+         OPEN GRAPH (Facebook, WhatsApp, LinkedIn)
+    ══════════════════════════════════════════ -->
+    <meta property="og:type"        content="website">
+    <meta property="og:site_name"   content="Verde AR">
+    <meta property="og:locale"      content="es_CO">
+    <meta property="og:url"         content="https://verde-ar.com/">
+    <meta property="og:title"       content="Verde AR — Visualiza Plantas en tu Oficina con Realidad Aumentada">
+    <meta property="og:description" content="Selecciona monstera, palmera o cactus, elige la maceta perfecta y colócala virtualmente en tu espacio de trabajo. Gratis, directo desde el navegador.">
+    <meta property="og:image"       content="https://verde-ar.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt"   content="Aplicación Verde AR mostrando una monstera en realidad aumentada en una oficina">
+
+    <!-- ══════════════════════════════════════════
+         TWITTER / X CARD
+    ══════════════════════════════════════════ -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:site"        content="@VERDEar_app">
+    <meta name="twitter:creator"     content="@VERDEar_app">
+    <meta name="twitter:title"       content="Verde AR — Plantas en tu Oficina con Realidad Aumentada">
+    <meta name="twitter:description" content="Ve cómo quedan monstera, palmeras y cactus en tu espacio de trabajo antes de comprarlas. Sin apps, directo desde el navegador.">
+    <meta name="twitter:image"       content="https://verde-ar.com/og-image.jpg">
+    <meta name="twitter:image:alt"   content="Verde AR visualizador de plantas en realidad aumentada">
+
+    <!-- ══════════════════════════════════════════
+         PWA / MÓVIL
+    ══════════════════════════════════════════ -->
+    <meta name="theme-color" content="#1B3A2D">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Verde AR">
+    <link rel="apple-touch-icon"        href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png"   href="/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png"   href="/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest"                href="/manifest.json">
+
+    <!-- ══════════════════════════════════════════
+         DATOS ESTRUCTURADOS JSON-LD
+    ══════════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebApplication",
+                "@id": "https://verde-ar.com/#app",
+                "name": "Verde AR",
+                "url": "https://verde-ar.com/",
+                "description": "Visualizador de plantas y náteras con realidad aumentada para espacios de trabajo. Sin instalación, directo desde el navegador.",
+                "applicationCategory": "LifestyleApplication",
+                "operatingSystem": "Android, iOS",
+                "browserRequirements": "Requires WebXR-compatible browser",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "COP"
+                },
+                "featureList": [
+                    "Visualización AR de plantas en tiempo real",
+                    "Selección de maceta y color",
+                    "Múltiples especies de plantas",
+                    "Sin instalación requerida"
+                ],
+                "screenshot": "https://verde-ar.com/screenshot.jpg",
+                "inLanguage": "es"
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://verde-ar.com/#organization",
+                "name": "Verde AR",
+                "url": "https://verde-ar.com/",
+                "logo": "https://verde-ar.com/icons/logo.png",
+                "sameAs": [
+                    "https://twitter.com/VERDEar_app",
+                    "https://instagram.com/verde.ar"
+                ]
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Inicio",
+                        "item": "https://verde-ar.com/"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "¿Necesito descargar una app para usar Verde AR?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No. Verde AR funciona directamente desde el navegador de tu teléfono sin necesidad de descargar ninguna aplicación. Solo necesitas un dispositivo compatible con WebXR."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "¿Qué plantas puedo visualizar en realidad aumentada?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Actualmente puedes visualizar Monstera Deliciosa, Palmera Interior (Chamaedorea elegans) y Cactus Grande (Cereus jamacaru), cada una con múltiples opciones de maceta y color."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "¿En qué dispositivos funciona Verde AR?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Verde AR funciona en dispositivos Android con Chrome que soporten WebXR, y en iPhone/iPad con iOS 13+ usando Safari con soporte AR."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+
+    <!-- ══════════════════════════════════════════
+         PERFORMANCE: Preconnect y preload
+    ══════════════════════════════════════════ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+        :root {
+            --bg-deep:      #0E1B13;
+            --bg-dark:      #1B3A2D;
+            --bg-panel:     rgba(22,46,35,0.88);
+            --light:        #A8E063;
+            --light-soft:   #C5F08A;
+            --accent:       #8FD14F;
+            --accent-dim:   rgba(168,224,99,0.18);
+            --accent-glow:  rgba(168,224,99,0.25);
+            --text-on-dark: #C5F08A;
+            --text-subtle:  rgba(168,224,99,0.5);
+            --border:       rgba(168,224,99,0.16);
+            --shadow:       rgba(8,20,12,0.6);
+        }
+
+        @keyframes sway      { 0%,100%{transform:rotate(-2deg)} 50%{transform:rotate(2deg)} }
+        @keyframes fadeUp    { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+        @keyframes fadeIn    { from{opacity:0} to{opacity:1} }
+        @keyframes breathe   { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.3;transform:scale(1.6)} }
+        @keyframes drift     { 0%{transform:translateY(0)rotate(0)scale(1);opacity:0} 15%{opacity:.4} 85%{opacity:.2} 100%{transform:translateY(-100px)rotate(35deg)scale(.3);opacity:0} }
+        @keyframes ripple    { 0%{transform:scale(0.8);opacity:1} 100%{transform:scale(2.8);opacity:0} }
+        @keyframes slideDown { from{transform:translateX(-50%)translateY(-10px);opacity:0} to{transform:translateX(-50%)translateY(0);opacity:1} }
+        @keyframes popIn     { 0%{transform:scale(0.6);opacity:0} 70%{transform:scale(1.08)} 100%{transform:scale(1);opacity:1} }
+        @keyframes glowPulse { 0%,100%{box-shadow:0 0 16px rgba(168,224,99,0.25)} 50%{box-shadow:0 0 36px rgba(168,224,99,0.55)} }
+        @keyframes shimmer   { from{transform:translateX(-100%)} to{transform:translateX(100%)} }
+
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            background: var(--bg-deep);
+            color: var(--text-on-dark);
+            height: 100vh; overflow: hidden;
+        }
+        body::before {
+            content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+            background:
+                radial-gradient(ellipse 80% 50% at 0% 0%, rgba(143,209,79,.09) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 70% at 100% 100%, rgba(27,58,45,.75) 0%, transparent 55%);
+        }
+
+        /* Partículas */
+        .leaf-p {
+            position:fixed; width:9px; height:9px;
+            clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 60%);
+            pointer-events:none; z-index:0;
+            animation: drift 8s ease-in-out infinite;
+        }
+
+        /* SVG deco */
+        .corner-deco {
+            position:fixed; top:-10px; right:-10px;
+            width:240px; height:240px; opacity:.15;
+            pointer-events:none; z-index:0;
+        }
+
+        /* ═══ HEADER ═══ */
+        .header {
+            position:fixed; top:0; left:0; right:0; z-index:200;
+            padding: 14px 20px;
+            background: linear-gradient(to bottom, rgba(14,27,19,.98) 70%, transparent);
+            display:flex; align-items:center; justify-content:space-between;
+        }
+        .logo {
+            font-style:italic; font-weight:300; font-size:24px;
+            letter-spacing:.06em; color:var(--light-soft);
+            display:flex; align-items:center; gap:8px;
+        }
+        .logo-leaf { animation:sway 4s ease-in-out infinite; display:inline-block; font-size:20px; }
+
+        .header-right { display:flex; align-items:center; gap:10px; }
+
+        .plant-counter {
+            display:flex; align-items:center; gap:5px;
+            font-family:'DM Mono',monospace; font-size:11px; color:var(--text-subtle);
+        }
+        .counter-num {
+            font-size:16px; font-weight:700; color:var(--light);
+            transition:all .3s ease;
+        }
+        .counter-num.bump { animation:popIn .4s ease both; }
+
+        .status-pill {
+            display:flex; align-items:center; gap:8px;
+            font-family:'DM Mono',monospace; font-size:10px; letter-spacing:.18em;
+            color:var(--accent); background:rgba(143,209,79,.08);
+            border:1px solid var(--border); border-radius:20px;
+            padding:5px 12px; backdrop-filter:blur(12px);
+            transition:all .4s ease;
+        }
+        .status-pill.ar-on {
+            background:rgba(143,209,79,.18); border-color:rgba(168,224,99,.5);
+            color:var(--light-soft); animation:glowPulse 2s ease-in-out infinite;
+        }
+        .s-dot {
+            width:7px; height:7px; border-radius:50%;
+            background:var(--accent); position:relative; flex-shrink:0;
+        }
+        .s-dot::after {
+            content:''; position:absolute; inset:-3px; border-radius:50%;
+            background:var(--accent); opacity:.35;
+            animation:ripple 2.2s ease-out infinite;
+        }
+
+        /* ═══ BARRA DE PROGRESO ═══ */
+        .progress-wrap {
+            position:fixed; top:60px; left:322px; right:16px; z-index:190;
+            display:flex; align-items:center; gap:0;
+        }
+        .prog-step {
+            display:flex; align-items:center; gap:6px;
+            padding:6px 12px; border-radius:20px;
+            font-family:'DM Mono',monospace; font-size:9px; letter-spacing:.12em; text-transform:uppercase;
+            color:var(--text-subtle); transition:all .4s ease; white-space:nowrap;
+        }
+        .prog-step.s-active { color:var(--light-soft); background:rgba(168,224,99,.1); border:1px solid var(--border); }
+        .prog-step.s-done   { color:var(--accent); }
+        .prog-step .s-ico   { font-size:13px; }
+        .prog-line {
+            flex:1; height:1px; min-width:10px;
+            background:rgba(168,224,99,.1); transition:background .4s ease;
+        }
+        .prog-line.s-done { background:linear-gradient(90deg,var(--accent),rgba(168,224,99,.3)); }
+
+        /* ═══ PANEL LATERAL ═══ */
+        .side-panel {
+            position:fixed; left:16px; top:108px; bottom:16px; width:290px;
+            background:var(--bg-panel); backdrop-filter:blur(28px);
+            border:1px solid var(--border); border-radius:22px;
+            z-index:150; display:flex; flex-direction:column;
+            box-shadow:inset 0 1px 0 rgba(168,224,99,.1), 0 24px 70px var(--shadow);
+            animation:fadeUp .5s ease-out both; overflow:hidden;
+        }
+
+        /* Tabs */
+        .p-tabs {
+            display:flex; border-bottom:1px solid var(--border); flex-shrink:0;
+        }
+        .p-tab {
+            flex:1; padding:12px 6px; border:none; background:none; cursor:pointer;
+            font-family:'DM Mono',monospace; font-size:9px; letter-spacing:.12em;
+            text-transform:uppercase; color:var(--text-subtle);
+            transition:all .25s ease; position:relative;
+        }
+        .p-tab::after {
+            content:''; position:absolute; bottom:0; left:25%; right:25%; height:2px;
+            background:var(--accent); border-radius:2px 2px 0 0;
+            transform:scaleX(0); transition:transform .25s ease;
+        }
+        .p-tab.active { color:var(--light-soft); }
+        .p-tab.active::after { transform:scaleX(1); }
+        .t-ico { font-size:15px; display:block; margin-bottom:3px; }
+
+        /* Panes */
+        .t-pane { display:none; flex:1; overflow-y:auto; padding:16px 14px; flex-direction:column; gap:10px; }
+        .t-pane.active { display:flex; }
+        .t-pane::-webkit-scrollbar { width:3px; }
+        .t-pane::-webkit-scrollbar-thumb { background:rgba(168,224,99,.25); border-radius:4px; }
+
+        .sec-label {
+            font-family:'DM Mono',monospace; font-size:9px; letter-spacing:.25em;
+            text-transform:uppercase; color:var(--text-subtle);
+        }
+
+        /* Tarjetas planta */
+        .plant-card {
+            background:rgba(143,209,79,.05); border:1px solid rgba(168,224,99,.1);
+            border-radius:14px; padding:12px 13px; cursor:pointer;
+            position:relative; overflow:hidden;
+            transition:all .3s cubic-bezier(.34,1.56,.64,1);
+        }
+        .plant-card::before {
+            content:''; position:absolute; left:0; top:0; bottom:0; width:3px;
+            background:linear-gradient(to bottom,var(--light),var(--accent));
+            transform:scaleY(0); transition:transform .3s ease;
+        }
+        .plant-card:hover { background:rgba(143,209,79,.1); transform:translateX(4px); border-color:rgba(168,224,99,.22); }
+        .plant-card.active { background:rgba(143,209,79,.14); border-color:rgba(168,224,99,.38); }
+        .plant-card.active::before { transform:scaleY(1); }
+
+        .pc-row { display:flex; align-items:center; gap:10px; }
+        .pc-emoji {
+            font-size:24px; width:40px; height:40px;
+            display:flex; align-items:center; justify-content:center;
+            background:rgba(143,209,79,.1); border-radius:10px; flex-shrink:0;
+        }
+        .plant-card.active .pc-emoji { animation:sway 2.5s ease-in-out infinite; }
+        .pc-name  { font-size:16px; font-weight:600; color:var(--light-soft); line-height:1.2; }
+        .pc-latin { font-style:italic; font-size:11px; color:var(--text-subtle); margin-top:1px; }
+        .pc-check {
+            margin-left:auto; width:18px; height:18px; border-radius:50%;
+            background:var(--accent); display:flex; align-items:center; justify-content:center;
+            font-size:10px; color:var(--bg-deep); font-weight:700;
+            transform:scale(0); transition:transform .3s cubic-bezier(.34,1.56,.64,1); flex-shrink:0;
+        }
+        .plant-card.active .pc-check { transform:scale(1); }
+
+        /* Variantes */
+        .v-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
+        .v-chip {
+            aspect-ratio:1; border-radius:12px; cursor:pointer;
+            border:2px solid transparent; position:relative; overflow:hidden;
+            transition:all .25s cubic-bezier(.34,1.56,.64,1);
+            display:flex; flex-direction:column; align-items:center;
+            justify-content:flex-end; padding-bottom:5px;
+        }
+        .v-chip:hover { transform:scale(1.08); box-shadow:0 6px 20px var(--shadow); }
+        .v-chip.active {
+            border-color:var(--light);
+            box-shadow:0 0 0 3px var(--accent-glow), 0 6px 20px var(--shadow);
+        }
+        .vc-tick {
+            position:absolute; top:4px; right:5px; font-size:11px; font-weight:700;
+            color:#fff; text-shadow:0 1px 4px rgba(0,0,0,.7);
+            transform:scale(0); transition:transform .25s cubic-bezier(.34,1.56,.64,1);
+        }
+        .v-chip.active .vc-tick { transform:scale(1); }
+        .vc-lbl {
+            font-family:'DM Mono',monospace; font-size:8px;
+            color:rgba(255,255,255,.85); text-shadow:0 1px 5px rgba(0,0,0,.9); z-index:1;
+        }
+
+        /* Tab info */
+        .i-card {
+            background:rgba(143,209,79,.06); border:1px solid var(--border);
+            border-radius:14px; padding:14px; display:flex; flex-direction:column; gap:0;
+        }
+        .i-card h3 { font-size:14px; color:var(--light-soft); margin-bottom:8px; font-weight:600; }
+        .i-row {
+            display:flex; align-items:flex-start; gap:10px;
+            padding:8px 0; border-bottom:1px solid rgba(168,224,99,.08);
+        }
+        .i-row:last-child { border-bottom:none; }
+        .i-num {
+            font-family:'Cormorant Garamond',serif; font-style:italic;
+            font-size:28px; font-weight:300; color:rgba(168,224,99,.2);
+            line-height:1; flex-shrink:0; width:26px;
+        }
+        .i-txt { font-size:13px; color:var(--text-on-dark); opacity:.8; line-height:1.5; padding-top:4px; }
+        .tip-box {
+            background:rgba(168,224,99,.07); border:1px solid rgba(168,224,99,.18);
+            border-radius:12px; padding:11px 13px;
+            font-size:13px; color:var(--accent); line-height:1.5;
+        }
+        .tip-box strong { color:var(--light-soft); }
+
+        /* ═══ BARRA INFERIOR ═══ */
+        .bottom-bar {
+            position:fixed; bottom:16px; left:322px; right:16px; z-index:150;
+            background:var(--bg-panel); backdrop-filter:blur(24px);
+            border:1px solid var(--border); border-radius:20px; padding:12px 16px;
+            display:flex; align-items:center; gap:12px;
+            box-shadow:inset 0 1px 0 rgba(168,224,99,.1), 0 12px 40px var(--shadow);
+            animation:fadeUp .5s ease-out .2s both;
+        }
+
+        .sel-preview {
+            display:flex; align-items:center; gap:10px; flex:1; min-width:0;
+        }
+        .prev-emoji {
+            font-size:26px; width:46px; height:46px;
+            background:rgba(143,209,79,.12); border:1px solid var(--border);
+            border-radius:12px; display:flex; align-items:center; justify-content:center;
+            flex-shrink:0; transition:all .3s ease;
+        }
+        .prev-name { font-size:15px; font-weight:600; color:var(--light-soft); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+        .prev-sub  { font-size:11px; color:var(--text-subtle); margin-top:1px; font-family:'DM Mono',monospace; font-size:9px; letter-spacing:.08em; }
+
+        .prev-swatch {
+            width:32px; height:32px; border-radius:8px; flex-shrink:0;
+            border:2px solid rgba(168,224,99,.28); transition:all .3s ease;
+        }
+
+        /* Botón AR */
+        .ar-btn {
+            display:flex; align-items:center; gap:8px;
+            background:linear-gradient(135deg,var(--light) 0%,var(--accent) 100%);
+            color:var(--bg-deep); border:none;
+            padding:12px 22px; border-radius:50px;
+            font-family:'Cormorant Garamond',serif; font-style:italic;
+            font-size:16px; font-weight:600; letter-spacing:.04em;
+            cursor:pointer; flex-shrink:0;
+            box-shadow:0 6px 22px rgba(143,209,79,.35);
+            transition:all .3s cubic-bezier(.34,1.56,.64,1);
+            position:relative; overflow:hidden;
+        }
+        .ar-btn::before {
+            content:''; position:absolute; inset:0;
+            background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);
+            transform:translateX(-100%);
+        }
+        .ar-btn:hover::before { animation:shimmer .6s ease; }
+        .ar-btn:hover { transform:translateY(-2px) scale(1.03); box-shadow:0 10px 32px rgba(143,209,79,.5); }
+        .ar-btn:active { transform:scale(.97); }
+        .ar-icon { font-size:18px; }
+
+        /* ═══ TOAST ═══ */
+        .toast {
+            position:fixed; top:76px; left:50%; transform:translateX(-50%);
+            background:rgba(22,46,35,.96); border:1px solid var(--border);
+            border-radius:50px; padding:9px 20px;
+            font-family:'DM Mono',monospace; font-size:11px; letter-spacing:.1em;
+            color:var(--light-soft); backdrop-filter:blur(20px); z-index:300;
+            pointer-events:none; white-space:nowrap;
+            animation:slideDown .3s ease both;
+            box-shadow:0 8px 28px rgba(8,20,12,.5);
+        }
+        .toast.hidden { display:none; }
+
+        /* ═══ BOTÓN LIMPIAR ═══ */
+        .clear-btn {
+            display:none; position:fixed; top:68px; right:16px; z-index:210;
+            background:rgba(255,80,80,.12); border:1px solid rgba(255,80,80,.3);
+            border-radius:50px; padding:6px 14px;
+            font-family:'DM Mono',monospace; font-size:9px; letter-spacing:.12em;
+            color:#FF7070; cursor:pointer; backdrop-filter:blur(10px);
+            transition:all .25s ease;
+        }
+        .clear-btn:hover { background:rgba(255,80,80,.22); }
+        .clear-btn.show { display:block; animation:fadeIn .3s ease both; }
+
+        /* ═══ AR OVERLAY HINT ═══ */
+        .ar-overlay {
+            display:none; position:fixed; inset:0; z-index:250;
+            pointer-events:none; flex-direction:column;
+            align-items:center; justify-content:flex-end; padding-bottom:50px;
+        }
+        .ar-overlay.show { display:flex; }
+        .ar-hint {
+            background:rgba(14,27,19,.92); backdrop-filter:blur(18px);
+            border:1px solid var(--border); border-radius:20px;
+            padding:16px 26px; text-align:center; color:var(--light-soft);
+            font-size:15px; line-height:1.6; max-width:300px;
+            animation:fadeUp .4s ease both;
+        }
+        .hint-ico { font-size:28px; display:block; margin-bottom:6px; }
+        .ar-hint small {
+            font-family:'DM Mono',monospace; font-size:9px;
+            color:var(--text-subtle); letter-spacing:.12em; display:block; margin-top:8px;
+        }
+
+        /* Native AR button hidden */
+        #ARButton {
+            position:fixed !important; opacity:0 !important;
+            pointer-events:none !important; bottom:0 !important;
+            right:0 !important; width:1px !important; height:1px !important;
+        }
+
+        /* Mobile */
+        @media (max-width:768px) {
+            .side-panel { left:8px; right:8px; width:auto; top:100px; bottom:115px; }
+            .bottom-bar  { left:8px; right:8px; }
+            .progress-wrap { display:none; }
+            .clear-btn { right:10px; top:auto; bottom:125px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ══ CONTENIDO OCULTO SEMÁNTICO PARA BUSCADORES ══ -->
+<div style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">
+    <h1>Verde AR — Visualizador de Plantas y Náteras en Realidad Aumentada para Espacios de Trabajo</h1>
+    <p>Con Verde AR puedes ver cómo quedarían plantas de interior en tu oficina antes de comprarlas. Elige entre Monstera Deliciosa, Palmera Interior y Cactus Grande, personaliza el color y acabado de la maceta, y coloca la planta virtualmente en tu espacio usando la cámara del teléfono. Sin descargar ninguna app.</p>
+    <section>
+        <h2>Plantas disponibles</h2>
+        <ul>
+            <li><strong>Monstera Deliciosa</strong> — Planta tropical decorativa, ideal para oficinas y salas de reuniones</li>
+            <li><strong>Palmera Interior (Chamaedorea elegans)</strong> — Palmera elegante para espacios corporativos y lobbies</li>
+            <li><strong>Cactus Grande (Cereus jamacaru)</strong> — Cactus de bajo mantenimiento perfecto para escritorios y esquinas</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Tipos de náteras y macetas disponibles</h2>
+        <p>Natural, Barro, Cemento, Blanca, Terracota, Negro mate, Tropical, Dorada, Mármol y más. Elige el acabado que mejor combine con tu decoración de oficina.</p>
+    </section>
+    <section>
+        <h2>¿Cómo funciona el visualizador AR?</h2>
+        <ol>
+            <li>Selecciona la planta que quieres visualizar</li>
+            <li>Elige el color y acabado de la maceta o nátera</li>
+            <li>Presiona "Ver en AR" y apunta la cámara al suelo</li>
+            <li>Toca la pantalla para colocar la planta en tu espacio</li>
+        </ol>
+    </section>
+</div>
+
+<!-- SVG deco esquina (decorativo) -->
+<svg class="corner-deco" viewBox="0 0 240 240" fill="none" aria-hidden="true" focusable="false">
+    <path d="M240 0 Q160 45 120 130 Q80 210 40 240" stroke="#A8E063" stroke-width="1.5" fill="none"/>
+    <ellipse cx="145" cy="75" rx="28" ry="48" fill="#A8E063" opacity=".5" transform="rotate(-30 145 75)"/>
+    <ellipse cx="115" cy="140" rx="22" ry="38" fill="#8FD14F" opacity=".38" transform="rotate(15 115 140)"/>
+    <ellipse cx="185" cy="45" rx="18" ry="30" fill="#C5F08A" opacity=".3" transform="rotate(-55 185 45)"/>
+    <circle cx="125" cy="115" r="4" fill="#C5F08A" opacity=".5"/>
+</svg>
+
+<!-- Partículas decorativas -->
+<div class="leaf-p" style="left:10%;top:62%;animation-delay:0s;background:#A8E063;opacity:.3;" aria-hidden="true"></div>
+<div class="leaf-p" style="left:40%;top:75%;animation-delay:3.5s;background:#8FD14F;opacity:.2;animation-duration:9s;" aria-hidden="true"></div>
+<div class="leaf-p" style="left:75%;top:55%;animation-delay:6s;background:#C5F08A;opacity:.18;animation-duration:7s;" aria-hidden="true"></div>
+
+<!-- ══ HEADER ══ -->
+<header class="header" role="banner">
+    <div class="logo" role="img" aria-label="Verde AR - Visualizador de plantas con realidad aumentada">
+        <span class="logo-leaf" aria-hidden="true">🌿</span>
+        Verde AR
+    </div>
+    <div class="header-right">
+        <div class="plant-counter" aria-live="polite" aria-label="Plantas colocadas en la escena">
+            <span aria-hidden="true">🪴</span>
+            <span class="counter-num" id="counterNum">0</span>
+            <span style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.1em;">colocadas</span>
+        </div>
+        <div class="status-pill" id="statusPill" role="status" aria-live="polite">
+            <div class="s-dot" aria-hidden="true"></div>
+            <span id="statusTxt">Listo</span>
+        </div>
+    </div>
+</header>
+
+<!-- ══ PROGRESO ══ -->
+<nav class="progress-wrap" id="progressWrap" aria-label="Progreso de configuración">
+    <div class="prog-step s-done" id="ps1" aria-current="false"><span class="s-ico" aria-hidden="true">🌱</span> Planta</div>
+    <div class="prog-line" id="pl1" aria-hidden="true"></div>
+    <div class="prog-step" id="ps2" aria-current="false"><span class="s-ico" aria-hidden="true">🪴</span> Maceta</div>
+    <div class="prog-line" id="pl2" aria-hidden="true"></div>
+    <div class="prog-step" id="ps3" aria-current="false"><span class="s-ico" aria-hidden="true">📱</span> AR</div>
+    <div class="prog-line" id="pl3" aria-hidden="true"></div>
+    <div class="prog-step" id="ps4" aria-current="false"><span class="s-ico" aria-hidden="true">✅</span> Colocar</div>
+</nav>
+
+<!-- ══ PANEL LATERAL ══ -->
+<aside class="side-panel" aria-label="Configuración de planta">
+    <div class="p-tabs" role="tablist" aria-label="Secciones de configuración">
+        <button class="p-tab active" role="tab" aria-selected="true"  aria-controls="tab-plants" onclick="switchTab('plants',this)">
+            <span class="t-ico" aria-hidden="true">🌿</span>Plantas
+        </button>
+        <button class="p-tab" role="tab" aria-selected="false" aria-controls="tab-pots" onclick="switchTab('pots',this)" id="tabPots">
+            <span class="t-ico" aria-hidden="true">🪴</span>Maceta
+        </button>
+        <button class="p-tab" role="tab" aria-selected="false" aria-controls="tab-info" onclick="switchTab('info',this)">
+            <span class="t-ico" aria-hidden="true">ℹ️</span>Cómo usar
+        </button>
+    </div>
+
+    <div class="t-pane active" id="tab-plants" role="tabpanel" aria-label="Selección de planta">
+        <div class="sec-label">Elige tu planta</div>
+        <div id="plantList" style="display:flex;flex-direction:column;gap:9px;" role="listbox" aria-label="Plantas disponibles"></div>
+    </div>
+
+    <div class="t-pane" id="tab-pots" role="tabpanel" aria-label="Selección de maceta">
+        <div class="sec-label">Acabado de maceta</div>
+        <div id="varGrid" class="v-grid" role="listbox" aria-label="Acabados de maceta disponibles"></div>
+    </div>
+
+    <div class="t-pane" id="tab-info" role="tabpanel" aria-label="Instrucciones de uso">
+        <div class="i-card">
+            <h2 style="font-size:14px;color:var(--light-soft);margin-bottom:8px;font-weight:600;">Cómo funciona</h2>
+            <div class="i-row"><div class="i-num" aria-hidden="true">1</div><div class="i-txt">Selecciona la planta que quieres ver en tu espacio</div></div>
+            <div class="i-row"><div class="i-num" aria-hidden="true">2</div><div class="i-txt">Escoge el color y acabado de la maceta</div></div>
+            <div class="i-row"><div class="i-num" aria-hidden="true">3</div><div class="i-txt">Toca <em>"Ver en AR"</em> y apunta tu cámara al piso</div></div>
+            <div class="i-row"><div class="i-num" aria-hidden="true">4</div><div class="i-txt">Toca en cualquier punto del suelo para colocar la planta</div></div>
+        </div>
+        <div class="tip-box">
+            <strong>💡 Tip:</strong> Puedes colocar varias plantas en distintos puntos. Usa el botón rojo para limpiar la escena.
+        </div>
+        <div class="tip-box">
+            <strong>☀️ Iluminación:</strong> Funciona mejor en espacios bien iluminados para detectar el suelo correctamente.
+        </div>
+    </div>
+</aside>
+
+<!-- ══ BARRA INFERIOR ══ -->
+<section class="bottom-bar" aria-label="Selección actual y acceso a AR">
+    <div class="sel-preview" aria-live="polite">
+        <div class="prev-emoji" id="prevEmoji" aria-hidden="true">🌿</div>
+        <div>
+            <div class="prev-name" id="prevName">Monstera Deliciosa</div>
+            <div class="prev-sub"  id="prevSub">Maceta · Natural</div>
+        </div>
+    </div>
+    <div class="prev-swatch" id="prevSwatch" aria-hidden="true"></div>
+    <button class="ar-btn" id="myARBtn" onclick="triggerAR()"
+            aria-label="Iniciar visualización en realidad aumentada con la planta seleccionada">
+        <span class="ar-icon" aria-hidden="true">🌿</span>
+        Ver en AR
+    </button>
+</section>
+
+<!-- Botón limpiar -->
+<button class="clear-btn" id="clearBtn" onclick="clearScene()"
+        aria-label="Eliminar todas las plantas colocadas en la escena AR">
+    ✕ Limpiar escena
+</button>
+
+<!-- Toast / notificaciones -->
+<div class="toast hidden" id="toastEl" role="alert" aria-live="assertive" aria-atomic="true"></div>
+
+<!-- AR Overlay hint -->
+<div class="ar-overlay" id="arOverlay" aria-live="polite">
+    <div class="ar-hint" role="complementary" aria-label="Instrucción para colocar la planta">
+        <span class="hint-ico" aria-hidden="true">👇</span>
+        Apunta al <strong>suelo</strong> de tu espacio<br>
+        y <strong>toca</strong> donde quieras la planta
+        <small>MUEVE LA CÁMARA LENTO PARA DETECTAR LA SUPERFICIE</small>
+    </div>
+</div>
+
+<script type="importmap">
+{
+    "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.159.0/examples/jsm/"
+    }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { ARButton } from 'three/addons/webxr/ARButton.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+/* ─── Catálogo ─── */
+const plants = [
+    {
+        name:'Monstera Deliciosa', latin:'Monstera deliciosa', emoji:'🌿',
+        model:'models/gltf/Arbol_2/Arbol_2.gltf', scale:0.45,
+        variants:[
+            {name:'Natural',   color:null,     pot:null     },
+            {name:'Barro',     color:0x4A8A3A, pot:0xB5713A },
+            {name:'Cemento',   color:0x5A8A3A, pot:0x808080 },
+            {name:'Blanca',    color:0x3A7A2A, pot:0xF5F0E8 },
+            {name:'Terracota', color:0x4A8A3A, pot:0xC4602C },
+            {name:'Negra',     color:0x2D5A20, pot:0x1A1A1A },
+        ]
+    },
+    {
+        name:'Palmera Interior', latin:'Chamaedorea elegans', emoji:'🌴',
+        model:'models/gltf/Arbol_1/Arbol_1.gltf', scale:0.5,
+        variants:[
+            {name:'Natural',   color:null,     pot:null     },
+            {name:'Tropical',  color:0x4CAF50, pot:0xC4602C },
+            {name:'Dorada',    color:0x7CB342, pot:0xCDAA7D },
+            {name:'Mar',       color:0x81C784, pot:0x4A90D9 },
+            {name:'Mármol',    color:0x66BB6A, pot:0xE8E0D5 },
+            {name:'Obsidiana', color:0x388E3C, pot:0x2C2C2C },
+        ]
+    },
+    {
+        name:'Cactus Grande', latin:'Cereus jamacaru', emoji:'🌵',
+        model:'models/gltf/Bongo/Bongo.gltf', scale:0.012,
+        variants:[
+            {name:'Desierto',  color:null,     pot:null     },
+            {name:'Verde',     color:0x4E9A42, pot:0xC4602C },
+            {name:'Urbano',    color:0x607D4A, pot:0x546E7A },
+            {name:'Rosa',      color:0x8BC34A, pot:0xE91E8C },
+            {name:'Minimal',   color:0x558B2F, pot:0xF5F5F5 },
+            {name:'Cobre',     color:0x4CAF50, pot:0xB87333 },
+        ]
+    }
+];
+
+/* ─── Estado ─── */
+let pIdx = 0, vIdx = 0, placed = 0;
+let camera, scene, renderer;
+let ctrl1, ctrl2, reticle;
+let htSrc = null, htReq = false;
+const loader = new GLTFLoader();
+const models = [];
+const placedModels = [];
+let loadedN = 0;
+
+plants.forEach((p,i) => {
+    loader.load(p.model, g => {
+        models[i] = g.scene; loadedN++;
+        if (loadedN === plants.length) toast('✅ Modelos listos', 2000);
+    }, null, () => { models[i] = null; loadedN++; });
+});
+
+/* ─── UI helpers ─── */
+window.switchTab = (id, btn) => {
+    document.querySelectorAll('.t-pane').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.p-tab').forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+    });
+    document.getElementById('tab-'+id).classList.add('active');
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+};
+
+let toastT;
+function toast(msg, ms=2500) {
+    const el = document.getElementById('toastEl');
+    el.textContent = msg; el.classList.remove('hidden');
+    clearTimeout(toastT);
+    toastT = setTimeout(() => el.classList.add('hidden'), ms);
+}
+
+/* Progreso */
+function setProgress(plantOk, potOk, arOk, placeOk) {
+    const step = (id, done, active) => {
+        document.getElementById(id).classList.toggle('s-done', done);
+        document.getElementById(id).classList.toggle('s-active', active);
+    };
+    const line = (id, done) => document.getElementById(id).classList.toggle('s-done', done);
+
+    step('ps1', plantOk,            !plantOk);
+    line('pl1', plantOk);
+    step('ps2', potOk,              plantOk && !potOk);
+    line('pl2', potOk);
+    step('ps3', arOk,               potOk && !arOk);
+    line('pl3', arOk);
+    step('ps4', placeOk,            arOk && !placeOk);
+}
+
+/* Bottom bar */
+function updateBar() {
+    const p = plants[pIdx], v = p.variants[vIdx];
+    document.getElementById('prevEmoji').textContent = p.emoji;
+    document.getElementById('prevName').textContent  = p.name;
+    document.getElementById('prevSub').textContent   = `Maceta · ${v.name}`;
+
+    const leafH = v.color ? '#'+v.color.toString(16).padStart(6,'0') : '#5A8A3A';
+    const potH  = v.pot   ? '#'+v.pot.toString(16).padStart(6,'0')   : '#3A4A3A';
+    document.getElementById('prevSwatch').style.background =
+        `linear-gradient(to bottom, ${leafH} 52%, ${potH} 52%)`;
+}
+
+/* Render listas */
+function renderPlants() {
+    const list = document.getElementById('plantList');
+    list.innerHTML = '';
+    plants.forEach((p,i) => {
+        const card = document.createElement('div');
+        card.className = `plant-card ${i===pIdx?'active':''}`;
+        card.innerHTML = `
+            <div class="pc-row">
+                <div class="pc-emoji">${p.emoji}</div>
+                <div>
+                    <div class="pc-name">${p.name}</div>
+                    <div class="pc-latin">${p.latin}</div>
+                </div>
+                <div class="pc-check">✓</div>
+            </div>`;
+        card.onclick = () => {
+            pIdx = i; vIdx = 0;
+            renderPlants(); renderVariants(); updateBar();
+            setProgress(true, false, false, false);
+            toast(`${p.emoji} ${p.name} seleccionada`);
+            // Auto-avanzar a tab maceta
+            setTimeout(() => document.getElementById('tabPots').click(), 550);
+        };
+        list.appendChild(card);
+    });
+}
+
+function renderVariants() {
+    const grid = document.getElementById('varGrid');
+    grid.innerHTML = '';
+    plants[pIdx].variants.forEach((v,i) => {
+        const chip = document.createElement('div');
+        chip.className = `v-chip ${i===vIdx?'active':''}`;
+        const lh = v.color ? '#'+v.color.toString(16).padStart(6,'0') : '#5A8A3A';
+        const ph = v.pot   ? '#'+v.pot.toString(16).padStart(6,'0')   : '#3A4A3A';
+        chip.style.background = `linear-gradient(to bottom,${lh} 54%,${ph} 54%)`;
+        chip.innerHTML = `<span class="vc-tick">✓</span><span class="vc-lbl">${v.name}</span>`;
+        chip.onclick = () => {
+            vIdx = i; renderVariants(); updateBar();
+            setProgress(true, true, false, false);
+            toast(`🪴 ${v.name} seleccionada`);
+        };
+        grid.appendChild(chip);
+    });
+}
+
+/* AR */
+window.triggerAR = () => {
+    const btn = document.getElementById('ARButton');
+    if (btn && btn.textContent !== 'AR NOT SUPPORTED') btn.click();
+    else toast('⚠️ WebXR no disponible en este dispositivo', 3500);
+};
+
+window.clearScene = () => {
+    placedModels.forEach(m => scene.remove(m));
+    placedModels.length = 0;
+    placed = 0;
+    document.getElementById('counterNum').textContent = 0;
+    document.getElementById('clearBtn').classList.remove('show');
+    toast('🗑️ Escena limpiada');
+};
+
+/* Bump counter */
+function bumpCount() {
+    const el = document.getElementById('counterNum');
+    el.textContent = placed;
+    el.classList.remove('bump');
+    void el.offsetWidth;
+    el.classList.add('bump');
+}
+
+/* Init */
+renderPlants(); renderVariants(); updateBar();
+setProgress(true, false, false, false);
+
+/* ─── Three.js ─── */
+function init() {
+    const wrap = document.createElement('div');
+    document.body.appendChild(wrap);
+
+    scene  = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera(70, innerWidth/innerHeight, .01, 20);
+
+    scene.add(new THREE.HemisphereLight(0xDDFFCC, 0x223322, 3));
+    const sun = new THREE.DirectionalLight(0xFFEECC, 1.2);
+    sun.position.set(1,2,1); sun.castShadow = true; scene.add(sun);
+    const fill = new THREE.DirectionalLight(0xCCFFDD, .4);
+    fill.position.set(-1,.5,-1); scene.add(fill);
+
+    renderer = new THREE.WebGLRenderer({antialias:true, alpha:true});
+    renderer.setPixelRatio(devicePixelRatio);
+    renderer.setSize(innerWidth, innerHeight);
+    renderer.xr.enabled = true;
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    wrap.appendChild(renderer.domElement);
+
+    const arBtn = ARButton.createButton(renderer, {requiredFeatures:['hit-test']});
+    arBtn.id = 'ARButton';
+    document.body.appendChild(arBtn);
+
+    /* Reticle */
+    reticle = new THREE.Mesh(
+        new THREE.RingGeometry(.11,.15,40).rotateX(-Math.PI/2),
+        new THREE.MeshBasicMaterial({color:0xA8E063, transparent:true, opacity:.9})
+    );
+    reticle.matrixAutoUpdate = false; reticle.visible = false;
+    scene.add(reticle);
+    const dot = new THREE.Mesh(
+        new THREE.CircleGeometry(.03,16),
+        new THREE.MeshBasicMaterial({color:0xC5F08A, transparent:true, opacity:.6})
+    );
+    dot.rotation.x = -Math.PI/2; reticle.add(dot);
+
+    function onSelect() {
+        if (!reticle.visible) return;
+        if (!models[pIdx]) { toast('⏳ Modelo cargando…'); return; }
+
+        const plant   = plants[pIdx];
+        const variant = plant.variants[vIdx];
+        const model   = models[pIdx].clone();
+
+        reticle.matrix.decompose(model.position, model.quaternion, model.scale);
+        model.scale.set(plant.scale, plant.scale, plant.scale);
+        model.traverse(c => {
+            if (!c.isMesh) return;
+            c.material = c.material.clone();
+            if (variant.color) c.material.color.setHex(variant.color);
+            c.castShadow = true; c.receiveShadow = true;
+        });
+
+        scene.add(model);
+        placedModels.push(model);
+        placed++;
+        bumpCount();
+        document.getElementById('arOverlay').classList.remove('show');
+        document.getElementById('clearBtn').classList.add('show');
+        setProgress(true,true,true,true);
+        toast(`✅ Planta colocada · ${placed} en escena`);
+    }
+
+    ctrl1 = renderer.xr.getController(0);
+    ctrl1.addEventListener('select', onSelect);
+    scene.add(ctrl1);
+
+    ctrl2 = renderer.xr.getController(1);
+    ctrl2.addEventListener('select', onSelect);
+    scene.add(ctrl2);
+
+    renderer.xr.addEventListener('sessionstart', () => {
+        document.getElementById('statusPill').classList.add('ar-on');
+        document.getElementById('statusTxt').textContent = 'AR activo';
+        document.getElementById('arOverlay').classList.add('show');
+        setProgress(true,true,true,false);
+    });
+    renderer.xr.addEventListener('sessionend', () => {
+        htReq = false; htSrc = null;
+        document.getElementById('statusPill').classList.remove('ar-on');
+        document.getElementById('statusTxt').textContent = 'Listo';
+        document.getElementById('arOverlay').classList.remove('show');
+    });
+
+    renderer.setAnimationLoop((ts, frame) => {
+        renderer.xr.isPresenting ? arLoop(frame) : renderer.render(scene,camera);
+    });
+
+    window.addEventListener('resize', () => {
+        camera.aspect = innerWidth/innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(innerWidth, innerHeight);
+    });
+}
+
+function arLoop(frame) {
+    if (!frame) { renderer.render(scene,camera); return; }
+    const ref = renderer.xr.getReferenceSpace();
+    const ses = renderer.xr.getSession();
+    if (!htReq) {
+        ses.requestReferenceSpace('viewer').then(vs =>
+            ses.requestHitTestSource({space:vs}).then(s => { htSrc = s; })
+        );
+        ses.addEventListener('end', () => { htReq = false; htSrc = null; });
+        htReq = true;
+    }
+    if (htSrc) {
+        const hits = frame.getHitTestResults(htSrc);
+        if (hits.length) {
+            reticle.visible = true;
+            reticle.matrix.fromArray(hits[0].getPose(ref).transform.matrix);
+        } else reticle.visible = false;
+    }
+    renderer.render(scene, camera);
+}
+
+init();
+</script>
+</body>
+</html>
